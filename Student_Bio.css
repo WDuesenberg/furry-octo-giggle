@@ -9,19 +9,23 @@
     display: block;
 }
 
-body {}
+body {
+    background-color: #ca3435;
+}
 
 header,
 footer {
-    padding: 25px;
-    margin-bottom: 25px;
-    color: green;
-    background: #333;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    color: #fefefa;
+    background: #D92121;
 }
 
 section {
-    background: #fff;
-    color: #30948d;
+    background: #b94e48;
+    text-align: left;
+    color: #fefefa;
     float: center;
     margin-top: 25px;
     padding: 10px;
@@ -39,7 +43,7 @@ section {}
 #right {}
 
 #full {
-    background: #fff;
+    background: #333333;
     float: none;
     margin-top: 25px;
     width: 70%;
@@ -52,9 +56,9 @@ section {}
 }
 
 aside {
-    background: mediumseagreen;
+    ;
     border: 5px solid darkslategray;
-    float: right;
+    float: center;
     height: 150px;
     margin-right: 15px;
     padding-top: 25px;
